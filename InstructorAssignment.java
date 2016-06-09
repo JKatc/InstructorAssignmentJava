@@ -438,9 +438,10 @@ public class InstructorAssignment extends JFrame implements ActionListener, Item
                         ++x;
                         f = new File("scheduleFile" + x + ".txt");
                     }
+                    numOfFiles = x;
                     FileWriter fw = new FileWriter(f.getAbsoluteFile(), true);
                     schedTA1.write(fw);
-                    schedTA1.append("Exported to text file.");
+                    schedTA1.append("Exported to scheduleFile" + (numOfFiles) + ".txt");
                     fw.close();
                 }
                 catch(IOException err)
@@ -501,6 +502,7 @@ public class InstructorAssignment extends JFrame implements ActionListener, Item
                 else
                     clearLabel1.setText("No schedules exist.");
             }
+            numOfFiles = 1;
         } else if (source == clearButtonReturn) { //return to main frame from clear frame button
             clearButtonDelInsts.removeActionListener(this);
             clearButtonDelStuds.removeActionListener(this);
