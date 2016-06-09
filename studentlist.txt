@@ -1,0 +1,16 @@
+Ex One | First
+Ex Two | First
+Ex Three | First
+Ex Five | Beginner 1
+Ex Six | Beginner 1
+Ex Thirteen | Intermediate
+Ex Fourteen | Intermediate
+Ex Four | First
+Ex Seven | Beginner 1
+Ex Eight | Beginner 1
+Ex Nine | Beginner 2
+Ex Ten | Beginner 2
+Ex Eleven | Beginner 2
+Ex Twelve | Beginner 2
+Ex Fifteen | Intermediate
+Ex Sixteen | Intermediate
